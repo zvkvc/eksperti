@@ -34,7 +34,7 @@ public abstract class CommentMapper {
     @Mapping(target = "user", source = "user")
     public abstract Comment map(CommentDto commentDto, Post post, User user);
 
-    
+    // mapstruct didn't implement mapToDto correctly for some reason..
     public CommentDto mapToDto(Comment comment) {
     	return CommentDto.builder().id(comment.getId())
     						.postId((comment.getPost()).getPostId())
