@@ -1,0 +1,5 @@
+Steps:
+1) add dependencies to pom.xml
+2) extend Spring Boot main class with extends SpringBootServletInitializer
+   enables app to run under dedicated Tomcat instance
+3) deployment
