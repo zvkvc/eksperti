@@ -1,0 +1,54 @@
+.login-section{
+  margin: 100px;
+}
+
+.login-failed{
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  border: 2px solid black;
+  width: 65%;
+  background-color: red;
+}
+
+.login-failed-text{
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+  color:#ffffff;
+}
+
+.login {
+  background-color: #464343;
+  border-color: #000000;
+  color: #ffffff;
+  fill: #464343;
+  border: 1px solid;
+  border-radius: 2px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 3px 15px;
+  opacity: 1;
+}
+
+.login-failed, .register-success{
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  border: 2px solid black;
+  width: 65%;
+  background-color: red;
+}
+
+.login-failed-text, .register-success-text{
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #ffffff;
+}

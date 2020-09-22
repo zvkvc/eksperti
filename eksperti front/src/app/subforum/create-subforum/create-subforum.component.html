@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="create-subforum-container">
+      <form class="post-form" [formGroup]="createSubforumForm" (ngSubmit)="createSubforum()">
+        <div class="form-group">
+          <div class="create-subforum-heading" style="margin-left: 0.3em; margin-top: 0.1em;"> Započni temu</div>
+          <hr />
+          <input type="text" [formControlName]="'title'" class="form-control" style="margin-top: 5px"
+                 placeholder="Naslov">
+          <textarea type="text" [formControlName]="'description'" style="width: 100%; margin-top: 5px"
+                    placeholder="  Opis . . ."></textarea>
+          <div>
+            <div style="margin-top: 5px" class="float-right">
+              <button (click)="discard()" class="btnDiscard">Odbaci</button>
+              <button class="btnCreateSubforum">Kreiraj</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

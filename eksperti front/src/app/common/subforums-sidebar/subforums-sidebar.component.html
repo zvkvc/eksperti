@@ -1,0 +1,11 @@
+<div class="sidebar-view-subforum">
+  <div style="color: black; font-weight: bold">Pretraži teme</div>
+  <hr />
+  <span *ngFor="let subforum of subforums">
+        <span class="subforum-text"><a href="/view-subforum/{{subforum.id}}">{{subforum.name}}</a></span>
+        <hr />
+    </span>
+  <div style="text-align: center" *ngIf="displayViewAll">
+    <a style="font-weight: bold" routerLink="/list-subforums">Pregledaj sve</a>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+<div class="container">
+  <div>
+   Dobrodošli! <b>{{name}}</b>.<br /> Postovali ste <b>{{postLength}}</b> puta i komentarisali
+    <b>{{commentLength}}</b> puta
+    Ispod možete pregledati prethodne komentare:
+  </div>
+  <hr />
+  <div>
+    Vaši postovi:
+  </div>
+  <app-post-tile [posts]="posts"></app-post-tile>
+  <hr />
+  <div>
+    Vaši komentari:
+  </div>
+  <div *ngFor="let comment of comments">
+    <div class="comment">
+      <div class="username">
+        <a routerLink="/user/comment.username">{{comment.username}}</a>
+      </div>
+      <div>
+        <p>{{comment.duration}}</p>
+      </div>
+      <b>{{comment.text}}</b>
+    </div>
+    <hr />
+  </div>
+</div>

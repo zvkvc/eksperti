@@ -1,0 +1,78 @@
+.btnCreatePost,
+.btnCreateSubforum {
+  margin-top: 5px;
+}
+
+.post-form {
+  margin: 2px;
+}
+
+.comment-notification {
+  margin-top: 5px;
+}
+
+.create-post-container {
+  margin-top: 10px;
+  --post-line-color: #ccc;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  background-color:  #fbfbfb;
+  color:#464343;
+  position: relative;
+  border-radius: 0px;
+  padding: 5px;
+}
+
+.btnDiscard {
+  fill: #464343;
+  border: 1px solid;
+  border-radius: 1px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  line-height: 25px;
+  text-transform: uppercase;
+  padding: 3px 15px;
+  opacity: 1;
+  width: 290px;
+  height: 35px;
+  margin-top: 5px;
+  margin-right:0.1em;
+  color: #000000;
+  background-color: transparent;
+}
+
+.create-post-heading {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #1c1c1c;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.btnCreatePost {
+  background-color:#464343;
+  border-color: #000000;
+  color: #ffff;
+  fill: #464343;
+  border: 1px solid;
+  border-radius: 1px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  line-height: 25px;
+  text-transform: uppercase;
+  padding: 3px 16px;
+  opacity: 1;
+  width: 290px;
+  height: 35px;
+}

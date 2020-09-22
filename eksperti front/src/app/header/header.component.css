@@ -1,0 +1,41 @@
+header{
+  border-radius: 0px solid;
+}
+
+.eksperti-heading{
+  color:#000000;
+  font-weight: 700;
+  height: 50px;
+  width: 50px;
+  font-size: 1.5rem;
+  padding-left:1rem;
+}
+
+.login, .signup{
+  background-color: transparent;
+  border-color: #000000;
+  color: #000000;
+  fill: #464343;
+  border: 1px solid;
+  border-radius: 0px;
+  box-sizing: border-box;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  line-height: 25px;
+  text-transform: uppercase;
+  padding: 2px 15px;
+  opacity: 1;
+}
+.signup{
+  background-color: #464343;
+  border-color: #000000;
+  color: azure;
+}
+
+.signup:hover{
+  opacity: 0.5;
+}
