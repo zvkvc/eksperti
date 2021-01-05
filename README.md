@@ -8,6 +8,19 @@ Security (authentication and authorization)  is implemented using JSON Web Token
 Angular then must provide Jwt token in the security header of each Http request sent to Spring REST endpoint. This is implemented using Angular Interceptors which manage appending Jwt's and Refresh Tokens to the requests. 
 These request headers are then filtered by JwtAuthenticationFilter class which can be then used by the Spring Security mechanism to authenticate/authorize users.
 
+Below are some snapshots of the website:
+
+![eksperti_home](https://user-images.githubusercontent.com/71449440/103646402-e5bd3c80-4f59-11eb-970e-a58f3859e2fe.png)
+
+____
+
+![eksperti_prijava](https://user-images.githubusercontent.com/71449440/103646424-efdf3b00-4f59-11eb-94e2-a3d621b087b7.png)
+
+____
+
+![eksperti_registracija](https://user-images.githubusercontent.com/71449440/103646453-fc639380-4f59-11eb-9f52-d354398831f1.png)
+
+
 
 
 
