@@ -7,6 +7,8 @@ The data access layer (dao) on the backend is responsible for converting JSON ba
 Security (authentication and authorization)  is implemented using JSON Web Token (JWT) which is a lightweight and relatively secure Public Key solution for authorizing users and utilizing Refresh Token mechanism for managing user sessions. <br />
 Angular then must provide Jwt token in the security header of each Http request sent to Spring REST endpoint. This is implemented using Angular Interceptors which append Jwt's and Refresh Tokens to the request headers.<br />
 These request headers are then extracted by JwtAuthenticationFilter class which are further used by the Spring Security mechanism to authenticate/authorize users. <br />
+Lombok Java library is used for minimizing boilerplate code regarding getters, setters and builder methods.
+Mapstruct library is used for converting Angular request payloads to Java beans and vice versa (beans to server response payloads).
 
 Below are some snapshots of the web app: <br />
 
