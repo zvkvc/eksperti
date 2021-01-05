@@ -1,5 +1,5 @@
 # eksperti
-This is a board type website on which users can ask for professional opinion or give one.
+This is a board type web app on which users can ask for professional opinion or give one.
 
 The website is implemented using Spring Boot stack on the backend and Angular 8 on the frontend. <br />
 Angular communicates with Spring App via REST endpoints exposed by Spring Controllers which then delegate the request logic to the Service layer. <br />
@@ -8,7 +8,7 @@ Security (authentication and authorization)  is implemented using JSON Web Token
 Angular then must provide Jwt token in the security header of each Http request sent to Spring REST endpoint. This is implemented using Angular Interceptors which append Jwt's and Refresh Tokens to the request headers.<br />
 These request headers are then extracted by JwtAuthenticationFilter class which are further used by the Spring Security mechanism to authenticate/authorize users. <br />
 
-Below are some snapshots of the website: <br />
+Below are some snapshots of the web app: <br />
 
 ![eksperti_home](https://user-images.githubusercontent.com/71449440/103646402-e5bd3c80-4f59-11eb-970e-a58f3859e2fe.png)
 
